@@ -1,0 +1,8 @@
+It is not necessary to use the doctest markup <BLANKLINE> to indicate empty lines in the output. Note that the option to run the examples through numpy.test is provided for checking if the examples work, not for making the examples part of the testing framework.
+
+The examples may assume that import numpy as np is executed before the example code in numpy. Additional examples may make use of matplotlib for plotting, but should import it explicitly, e.g., import matplotlib.pyplot as plt. All other imports, including the demonstrated function, must be explicit.
+
+When matplotlib is imported in the example, the Example code will be wrapped in matplotlib’s Sphinx `plot directive <http://matplotlib.org/sampledoc/extensions.html>`_. When matplotlib is not explicitly imported, .. plot:: can be used directly if matplotlib.sphinxext.plot_directive is loaded as a Sphinx extension in conf.py.
+asaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+test
